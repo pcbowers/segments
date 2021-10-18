@@ -103,7 +103,7 @@ interface CustomSerializers extends Serializers {
  */
 export interface CustomOptions {
 	segments: (Segment | CustomSegment)[];
-	serializers: Serializers | CustomSerializers;
+	serializers?: Serializers | CustomSerializers;
 	errorOnUnknowns?: boolean;
 	renderUnknownComponents?: boolean;
 	renderHardBreaks?: boolean;
@@ -117,7 +117,7 @@ export interface CustomOptions {
  */
 export interface Options extends CustomOptions {
 	segments: Segment[];
-	serializers: Serializers;
+	serializers?: Serializers;
 }
 
 /**
