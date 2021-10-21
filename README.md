@@ -1,4 +1,8 @@
-# Segments - Abstracting and Rendering Rich Content with JSON
+# Segments Specification
+
+![Segments Specification](https://img.shields.io/badge/segments-specification-blue)
+
+> Abstracting and Rendering Rich Content with JSON
 
 `npm i @pcbowers/segments`
 
@@ -173,17 +177,25 @@ Based on the example above, two segment types are used: `paragraph` and `text`. 
 
 This is an example of a list using segments. As you can see, it uses the `type` property and the `start` property to dictate list type and where to start in the list respectively. The list itself contains two items with the second item containing a sub list with an additional two items. The list would render to something like this:
 
-<ol start="5">
-  <li>List Item 5</li>
-  <li>List Item 6
-    <ol type="a">
-      <li>Sub Item a</li>
-      <li>Sub Item b</li>
-    </ol>
-  </li>
-</ol>
+> <ol start="5">
+>  <li>List Item 5</li>
+>  <li>List Item 6
+>    <ol type="a">
+>      <li>Sub Item a</li>
+>      <li>Sub Item b</li>
+>    </ol>
+>  </li>
+> </ol>
 
 ## Renderers
+
+> Converting segments to rich text
+
+TODO
+
+## Serializers
+
+> Converting rich text to segments
 
 TODO
 
