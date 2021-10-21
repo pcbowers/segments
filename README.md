@@ -1,3 +1,5 @@
+![Segments Logo](./lib/logo.svg)
+
 # Segments Specification
 
 ![Segments Specification](https://img.shields.io/badge/segments-specification-blue)
