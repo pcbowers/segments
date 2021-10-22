@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Options, CustomOptions } from '$lib/renderTypes';
-	export let options: Options | CustomOptions;
+	import type { RenderOptions } from '$lib/renderTypes';
+	export let options: RenderOptions<'svelte'>;
 
 	console.log(options);
 </script>
